@@ -1,4 +1,4 @@
-### Learning Neural OPF Policies with Supervised and Reinforcement Learning
+# Learning Neural OPF Policies with Supervised and Reinforcement Learning
 
 This repository demonstrates how **AI learning algorithms** can be used to
 learn decision-making policies for power system operation.
