@@ -76,14 +76,24 @@ The hybrid approach combines **training stability** and **control flexibility**.
 
 ---
 
+## ▶️ Quick Start
+
+```bash
+pip install -r requirements.txt
+python env.py 
+python pretrain_fn.py
+
+---
 
 ## 📁 Repository Structure
 
 ```text
 .
-├── env.py          # Power grid simulation environment
-├── agent1_va.py    # Neural network models
-├── pretrain_fn.py  # Supervised learning pipeline
-├── saved_model/    # Trained models
-├── training_plots/ # Training curves
+├── env.py           # Power grid simulation environment
+├── agent1_va.py     # Neural network models
+├── pretrain_fn.py   # Supervised learning pipeline
+├── saved_data/      # Example training dataset
+├── saved_model/     # Trained models
+├── training_plots/  # Training curves
+├── requirements.txt # Environment dependencies
 └── README.md
